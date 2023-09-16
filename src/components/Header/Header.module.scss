@@ -1,0 +1,8 @@
+@import '../../assets/styles/variables.scss';
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    background-color: $testColor;
+}
