@@ -1,0 +1,26 @@
+[
+    {
+        "id":"14167",
+        "english":"bemused",
+        "transcription":"[bɪˈmjuːzd]",
+        "russian":"ошеломленный",
+        "tags":"easy",
+        "tags_json":"[\"easy\"]"
+},
+    {
+        "id":"14213",
+        "english":"picture",
+        "transcription":"[ˈpɪk.tʃə r]",
+        "russian":"картина",
+        "tags":"easy",
+        "tags_json":"[\"easy\"]"},
+
+    {
+        "id":"14221",
+        "english":"mountain",
+        "transcription":"[ˈmaʊn.tɪn]",
+        "russian":"гора",
+        "tags":"",
+        "tags_json":"[]"
+}
+]

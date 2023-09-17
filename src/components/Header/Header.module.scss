@@ -1,8 +1,33 @@
 @import '../../assets/styles/variables.scss';
 
-.container {
+.header {
+    background-color: $blue;
+}
+.container{
+    max-width: 1440px;
+    height: 60px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    height: 400px;
-    background-color: $testColor;
+}
+.logoBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    height: 35px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    list-style-type: none;
+}
+.settings{
+    display:flex;
+    align-items: center;
+    img{
+        height: 30px;
+    }
 }
