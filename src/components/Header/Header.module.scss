@@ -1,12 +1,10 @@
 @import '../../assets/styles/variables.scss';
 
-.header {
-    background-color: $blue;
-}
 .container{
     max-width: 1440px;
     height: 60px;
     margin: 0 auto;
+    padding: 0 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -14,6 +12,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: $blue;
+    text-transform: uppercase;
 }
 .logo {
     height: 35px;
@@ -22,7 +22,12 @@
     display: flex;
     justify-content: space-between;
     width: 300px;
+    margin: auto 0;
     list-style-type: none;
+    li {
+        color: $blue;
+        text-transform: uppercase;
+    }
 }
 .settings{
     display:flex;
