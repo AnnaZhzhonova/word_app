@@ -1,13 +1,14 @@
 import React from 'react';
 import THead from './THead';
 import TRow from './TRow';
+import style from './WordsTable.module.scss';
 import data from '../../wordsList.json'
 
 
 
 export default function WordsTable() {
   return (
-    <div>
+    <div className={style.WordsTable}>
       <THead></THead>
       {data.map((item) =>
         <TRow

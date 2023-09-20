@@ -1,13 +1,21 @@
 @import '../../assets/styles/variables.scss';
 
-.tableBox {
-    max-width: 1200px;
+.WordsTable{
+    width: 1200px;
     margin: 0 auto;
+    padding: 50px 0;
+    background-color: $orange;
+}
+.tableBox {
+    width: 80%;
+    margin: 0 auto;
+    background-color: $white;
 }
 .tableHead{
     width: 100%;
 }
 .tableRow {
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
