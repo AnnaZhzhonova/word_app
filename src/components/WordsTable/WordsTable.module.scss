@@ -1,0 +1,24 @@
+@import '../../assets/styles/variables.scss';
+
+.tableBox {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.tableHead{
+    width: 100%;
+}
+.tableRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    td{
+        padding: 10px;
+        border: 1px solid $gray;
+    }
+}
+
+.header {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $blue;
+}
