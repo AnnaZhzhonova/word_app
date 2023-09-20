@@ -14,7 +14,7 @@ export default function Header() {
       <ul className={style.list}>
         <li>Главная</li>
         <li>Словарь</li>
-        <li>Интересное</li>
+        <li>Списки слов</li>
       </ul>
       <div className={style.settings} ><img src={settings} alt='set'></img></div>
       </div>
