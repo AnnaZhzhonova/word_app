@@ -1,6 +1,6 @@
 import React from 'react';
-import addIcon from '../../assets/images/add.svg';
-import style from './WordsTable.module.scss';
+import addIcon from '../../../assets/images/add.svg';
+import style from '../WordsTable.module.scss';
 
 export default function TRow(props) {
     const {eng,transcr, rus} = props;

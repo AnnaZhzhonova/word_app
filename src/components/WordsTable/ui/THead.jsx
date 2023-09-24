@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './WordsTable.module.scss';
+import style from '../WordsTable.module.scss';
 
 export default function THead() {
   return (

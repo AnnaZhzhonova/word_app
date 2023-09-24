@@ -1,0 +1,44 @@
+@import '../../assets/styles/variables.scss';
+
+.cardBody{
+    display: grid;
+    grid-template-rows: 130px 50px 120px;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: $gray;
+    text-align: center;
+}
+
+.eng{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.transcr{
+    margin-top: 10px;
+    font-size: 20px;
+    color: $gray-dark;
+}
+.button{
+    width: 100px;
+    height: 40px;
+    margin: 30px auto 0;
+    border: none;
+    border-radius: 10px;
+    background-color: $green-dark;
+    color: $white;
+}
+.buttonHidden, .rusHidden{
+    display: none;
+}
+.rus{
+    margin: 35px auto 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: $green-dark;
+}

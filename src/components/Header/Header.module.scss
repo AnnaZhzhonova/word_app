@@ -21,8 +21,9 @@
 .list{
     display: flex;
     justify-content: space-between;
-    width: 300px;
+    width: 400px;
     margin: auto 0;
+    padding: 0;
     list-style-type: none;
     li {
         color: $blue;

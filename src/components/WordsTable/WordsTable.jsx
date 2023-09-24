@@ -1,6 +1,6 @@
 import React from 'react';
-import THead from './THead';
-import TRow from './TRow';
+import THead from './ui/THead';
+import TRow from './ui/TRow';
 import style from './WordsTable.module.scss';
 import data from '../../wordsList.json'
 
