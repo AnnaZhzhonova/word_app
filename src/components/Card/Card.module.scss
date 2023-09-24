@@ -1,7 +1,12 @@
 @import '../../assets/styles/variables.scss';
 
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 .cardBody{
     display: grid;
+    margin: 0 auto;
     grid-template-rows: 130px 50px 120px;
     width: 250px;
     height: 300px;

@@ -1,8 +1,11 @@
 @import '../../assets/styles/variables.scss';
 
-.WordsTable{
-    width: 1200px;
+.container{
+    max-width: 1440px;
     margin: 0 auto;
+}
+.WordsTable{
+    width: 100%;
     padding: 50px 0;
     background-color: $orange;
 }
@@ -17,7 +20,7 @@
 .tableRow {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 50px;
+    grid-template-columns: 30% 30% 30% 10%;
 
     td{
         padding: 10px;
@@ -36,8 +39,15 @@
     text-transform: uppercase;
     color: $blue;
 }
-.addIcon{
+.addIcon, .changes{
     width: 20px;
     margin: 0;
     padding: 0;
+}
+.input{
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    border-radius: 2px;
+    border: 1px solid $blue;
 }

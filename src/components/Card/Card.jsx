@@ -10,14 +10,14 @@ export default function Card(props) {
   }
 
   return (
-    <>
+    <div className={style.container}>
       <div className={style.cardBody}>
       <p className={style.eng}>{eng}</p>
       <p className={style.transcr}>{transcr}</p>
       <button className={translate ? style.buttonHidden : style.button} onClick={handleChange}>Перевод</button>
       <p className={translate ? style.rus : style.rusHidden}>{rus}</p>
       </div>
-    </>
+    </div>
 
   )
 }

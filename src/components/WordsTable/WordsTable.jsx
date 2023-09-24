@@ -8,6 +8,7 @@ import data from '../../wordsList.json'
 
 export default function WordsTable() {
   return (
+    <div className={style.container}>
     <div className={style.WordsTable}>
       <THead></THead>
       {data.map((item) =>
@@ -18,6 +19,7 @@ export default function WordsTable() {
         ></TRow>
       )
       }
+    </div>
     </div>
   )
 }
