@@ -1,2 +1,10 @@
 @import '../../assets/styles/variables.scss';
 
+.buttonContainer{
+    display: flex;
+    justify-content: end;
+    max-width: 1200px;
+}
+.sliderContainer{
+    margin: 0 auto;
+}

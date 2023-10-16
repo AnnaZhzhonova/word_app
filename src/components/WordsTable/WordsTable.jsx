@@ -7,11 +7,12 @@ import data from '../../wordsList.json'
 
 
 export default function WordsTable() {
+  const wordsData = data.map((item) => item);
   return (
     <div className={style.container}>
     <div className={style.WordsTable}>
       <THead></THead>
-      {data.map((item) =>
+      {wordsData.map((item) =>
         <TRow
         eng={item.english}
         transcr={item.transcription}

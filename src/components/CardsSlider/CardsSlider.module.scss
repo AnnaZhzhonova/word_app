@@ -1,0 +1,9 @@
+@import '../../assets/styles/variables.scss';
+
+.slider{
+width: 500px;
+margin: 0 auto;
+ button::before{
+    color: $blue;
+ }
+}

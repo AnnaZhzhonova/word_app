@@ -1,0 +1,12 @@
+@import '../../assets/styles/variables.scss';
+
+.button {
+    width: 220px;
+    height: 44px;
+    margin: 20px 0;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: $white;
+    background-color: $blue;
+    cursor: pointer;
+}
